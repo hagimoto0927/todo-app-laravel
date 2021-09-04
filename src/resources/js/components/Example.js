@@ -1,5 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Button } from '@material-ui/core';
 
 function Example() {
     return (
@@ -9,7 +10,10 @@ function Example() {
                     <div className="card">
                         <div className="card-header">うんこ</div>
 
-                        <div className="card-body">ちんこ</div>
+                        <div className="card-body">んこ</div>
+                        <Button color="secondary" variant="contained">
+                            変態はギーさん
+                        </Button>
                     </div>
                 </div>
             </div>
@@ -19,6 +23,6 @@ function Example() {
 
 export default Example;
 
-if (document.getElementById('app')) {
-    ReactDOM.render(<Example />, document.getElementById('app'));
+if (document.getElementById("app")) {
+    ReactDOM.render(<Example />, document.getElementById("app"));
 }
